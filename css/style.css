@@ -1,0 +1,114 @@
+/*
+    Page Name: Pitt2You
+    Author: Eureka Zheng (zhengeureka@gmail.com)
+    Author URL: http://eurekazheng.github.io/
+    ok
+*/
+
+.navbar-brand {
+	float: none;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-style: italic;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+    
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+    
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+     
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
+.stat-card {
+    width: 200px;
+    margin-right: 30px;
+    background-color: #1f2854;
+    color: white;
+}
+
+.stat-card .card-title {
+    font-size: 48px;
+}
+
+.card-container {
+    background-color: #c8cfe0;
+}
+
+.btn-stat {
+    background-color: #ffc107;
+    width: 60%;
+    font-size: 18px;
+}
+
+.btn-about {
+    background-color: #c9b984;
+    color: white;
+}
+
+.about-card {
+    background-color: #dce3f4;
+}
+
+.bg-pitt-blue {
+    background-color: #1f2854;
+    color: white;
+}
+
+.bg-pitt-blue a {
+    color: white;
+}
+
+.mt-navbar {
+    margin-top: 58px;
+}
+
+h4 {
+    margin-top: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.tabs {
+    font-size: 24px;
+    margin-top: 48px;
+}
+
+.tabs a {
+    margin-right: 48px;
+}
+
+.namecard-title {
+    font-size: 36px;
+}
+
+.namecard-major {
+    font-style: italic;
+}
