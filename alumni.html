@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Alumni - Pitt to You</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--layer-->
+    <link href="https://cdn.bootcss.com/layer/3.1.0/theme/default/layer.css" rel="stylesheet">
+    <!--webui-popover-->
+    <link href="https://cdn.bootcss.com/webui-popover/2.1.15/jquery.webui-popover.min.css" rel="stylesheet">
+    <!--jquery.picsign本组件关键CSS-->
+    <link href="css/jquery.picsign.css" rel="stylesheet" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+  </head>
+
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand fixed-top bg-pitt-blue">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav w-100 nav-justified">
+              <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="program.html">PROGRAM</a>
+              </li>
+              <li class="nav-item">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="" alt="P2U">
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="apply.html">APPLY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">MENTORSHIP</a>
+              </li>            
+          </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-navbar">
+      <h2>Beijing</h2>
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" href="#BJ-2018" role="tab" data-toggle="tab">2018</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#BJ-2017" role="tab" data-toggle="tab">2017</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane in active" id="BJ-2018">
+        </div>
+        <div role="tabpanel" class="tab-pane in" id="BJ-2017">
+        </div>
+      </div>
+      <h2>Shanghai</h2>
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" href="#SH-2018" role="tab" data-toggle="tab">2018</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#SH-2017" role="tab" data-toggle="tab">2017</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane in active" id="SH-2018">
+        </div>
+        <div role="tabpanel" class="tab-pane in" id="SH-2017">
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+    <!--layer-->
+    <script src="https://cdn.bootcss.com/layer/3.1.0/layer.js"></script>
+    <!--webui-popover-->
+    <script src="https://cdn.bootcss.com/webui-popover/2.1.15/jquery.webui-popover.min.js"></script>
+    <!--jquery.picsign本组件关键JS-->
+    <script src="js/jquery.picsign.js"></script>
+    <script src="https://cdn.bootcss.com/json2/20160511/json2.min.js"></script>
+    <script>
+        $().ready(function() {
+            $("#BJ-2018").picsign({
+                picurl: 'img/alumni/BJ-2018.jpg',
+                signdata: [],
+                editable: {
+                    add: false,
+                    update: false,
+                    del: false,
+                    move: false
+                },
+                popwidth: 250,
+                popheight: 154,
+                inputwidth: 400,
+                inputheight: 247,
+            });          
+            $("#BJ-2017").picsign({
+                picurl: 'img/alumni/BJ-2017.jpg',
+                signdata: [
+                  {"left":"95.8974%","top":"62.0513%","msg":"Neuroscience","title":"Xiaoyao Qu"},
+                  {"left":"89.9145%","top":"56.1538%","msg":"Pre-Pharmacy","title":"Feiran Liang"},
+                  {"left":"69.5726%","top":"76.1538%","msg":"Rehabilitation Science","title":"Zhengjianing Dong"},
+                  {"left":"30.2564%","top":"60.5128%","msg":"Computer Science","title":"Yutong Zhang"},
+                  {"left":"61.1966%","top":"57.1795%","msg":"Political Science","title":"Yanchen Ge"},
+                  {"left":"71.4530%","top":"56.1538%","msg":"Psychology","title":"Xiaoying Dong"},
+                  {"left":"69.0598%","top":"53.8462%","msg":"Architecture","title":"Jiashun Gao"},
+                  {"left":"50.4274%","top":"60.7692%","msg":"Biological Science","title":"Yuxin Dong"},
+                  {"left":"39.1453%","top":"67.4359%","msg":"Communication","title":"Xiaohan Zhou"}],
+                editable: {
+                    add: false,
+                    update: false,
+                    del: false,
+                    move: false
+                },
+                popwidth: 250,
+                popheight: 154,
+                inputwidth: 400,
+                inputheight: 247,
+            });
+            $("#SH-2018").picsign({
+                picurl: 'img/alumni/SH-2018.jpg',
+                signdata: [
+                  {"left":"40.9402%","top":"54.4872%","msg":"Biology","title":"Yuantong Li"},
+                  {"left":"11.4530%","top":"42.4359%","msg":"Chemistry","title":"Yuhan Wang"},
+                  {"left":"28.2051%","top":"42.6923%","msg":"Undeclared","title":"Xi Chen"},
+                  {"left":"23.8462%","top":"56.4103%","msg":"Biological Science","title":"Lingyi Kong"},
+                  {"left":"33.3333%","top":"54.2308%","msg":"Business","title":"Yakun Jiang"},
+                  {"left":"40.0000%","top":"35.6410%","msg":"Undecided","title":"Xiaoya Geng"},
+                  {"left":"45.2991%","top":"43.7179%","msg":"Engineering","title":"Kaixu Shi"},
+                  {"left":"47.6068%","top":"38.0769%","msg":"Engineering","title":"Boxuan Li"},
+                  {"left":"52.3077%","top":"41.7949%","msg":"Philosophy","title":"Bolun Cui"},
+                  {"left":"58.2051%","top":"38.9744%","msg":"Biology","title":"Haoshen Shi"},
+                  {"left":"58.3761%","top":"53.0769%","msg":"Undecided","title":"Bihuan Xu"},
+                  {"left":"62.9060%","top":"48.3333%","msg":"Psychology","title":"Kaiyuan Luo"},
+                  {"left":"65.7265%","top":"40.2564%","msg":"Undecided","title":"Jinlang Wang"},
+                  {"left":"69.4017%","top":"33.2051%","msg":"Biochemistry","title":"Ziyi Song"},
+                  {"left":"70.7692%","top":"49.4872%","msg":"Applied Mathematics","title":"Xinyu Dong"},
+                  {"left":"80.0000%","top":"42.5641%","msg":"Undecided","title":"Yangtai Li"},
+                  {"left":"88.9744%","top":"45.6410%","msg":"Chemistry","title":"Yunjia Zhang"},
+                  {"left":"93.2479%","top":"40.8974%","msg":"Psychology","title":"Qinglin Kong"},
+                  {"left":"31.0256%","top":"89.3590%","msg":"Bioengineering","title":"Kangxin Wang"},
+                  {"left":"32.3077%","top":"69.6154%","msg":"Business","title":"Ruichun Li"},
+                  {"left":"45.8974%","top":"69.2308%","msg":"Studio Art","title":"Xiaodan Wang"},
+                  {"left":"57.6923%","top":"67.5641%","msg":"Computer Science","title":"Meiqi Chen"}],
+                editable: {
+                    add: false,
+                    update: false,
+                    del: false,
+                    move: false
+                },
+                popwidth: 250,
+                popheight: 154,
+                inputwidth: 400,
+                inputheight: 247,
+            });
+            $("#SH-2017").picsign({
+                picurl: 'img/alumni/SH-2017.jpg',
+                signdata: [
+                  {"left":"22.9429%","top":"55.6000%","msg":"Neuroscience","title":"Zhonghe Chen"},
+                  {"left":"39.3162%","top":"47.9487%","msg":"Rehabilitation Science","title":"Ruofei Du"},
+                  {"left":"34.7009%","top":"55.3846%","msg":"Global Management and Philosophy","title":"Mengyao Wu"},
+                  {"left":"28.8732%","top":"53.8208%","msg":"Environmental Science","title":"Zhangyanyang Yao"},
+                  {"left":"88.7695%","top":"56.9344%","msg":"Nursing","title":"Youjia Zhang"},
+                  {"left":"82.0513%","top":"48.7179%","msg":"Psychology","title":"Xin Qian"},
+                  {"left":"52.6496%","top":"43.8462%","msg":"Computer Science","title":"Zikai Zhang"},
+                  {"left":"47.3504%","top":"45.8974%","msg":"Computer Science","title":"Runyuan Yan"},
+                  {"left":"30.2564%","top":"30.5128%","msg":"Psychology","title":"Tiange Dai"},
+                  {"left":"69.7436%","top":"46.1538%","msg":"Biochemistry","title":"Ze Yu"},
+                  {"left":"56.5812%","top":"45.1282%","msg":"Political Science","title":"Yiyang Shen"}],
+                editable: {
+                    add: false,
+                    update: false,
+                    del: false,
+                    move: false
+                },
+                popwidth: 250,
+                popheight: 154,
+                inputwidth: 400,
+                inputheight: 247,
+            });
+        });
+    </script>
+  </body>
+</html>
