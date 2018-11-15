@@ -9,6 +9,16 @@
 	float: none;
 }
 
+.navbar-logo {
+    width: 150px;
+}
+
+.nav-item {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
 blockquote {
     font-family: Georgia, serif;
     font-size: 22px;
@@ -85,10 +95,26 @@ blockquote cite:before {
 }
 
 .mt-navbar {
-    margin-top: 58px;
+    margin-top: 98px;
+}
+
+h1 {
+    padding-top: 48px;
+}
+
+h2 {
+    padding-top: 24px;
 }
 
 h4 {
+    margin-top: 24px;
+}
+
+.nav-tabs {
+    margin-top: 24px;
+}
+
+.tab-content {
     margin-top: 24px;
 }
 
@@ -106,10 +132,35 @@ ul {
     margin-right: 48px;
 }
 
+.namecard {
+    margin-top: 36px;
+}
+
 .namecard-title {
     font-size: 36px;
 }
 
 .namecard-major {
     font-style: italic;
+}
+
+.rounded-circle {
+    width: 250px;
+}
+
+.navbar-intro {
+    padding-bottom: 24px;
+}
+
+.program-row {
+    margin-top: 24px;
+}
+
+.time {
+    width: 200px;
+    display: inline-block
+}
+
+#carouselBackground {
+    padding-top: 24px;
 }
