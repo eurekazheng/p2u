@@ -161,6 +161,10 @@ ul {
     display: inline-block
 }
 
-#carouselBackground {
+#applyCarouselBackground {
     padding-top: 24px;
+}
+
+.program-container {
+    padding-left: 24px;
 }
