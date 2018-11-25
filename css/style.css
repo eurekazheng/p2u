@@ -2,22 +2,38 @@
     Page Name: Pitt2You
     Author: Eureka Zheng (zhengeureka@gmail.com)
     Author URL: http://eurekazheng.github.io/
-    ok
 */
 
-.navbar-brand {
-	float: none;
+/* Navbar */
+
+#navbarP2ULogo {
+    width: 50px;
 }
 
-.navbar-logo {
-    width: 100px;
+#navbarPittLogo {
+    width: 300px;
 }
 
 .nav-item {
-    display:flex;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+#navigation {
+    width: 100%;
+    z-index: 100;
+}
+
+.dropdown-menu {
+    background-color: #1f2854;
+}
+
+.navbar-intro {
+    padding-bottom: 24px;
+}
+
+/* Blockquote */
 
 blockquote {
     font-family: Georgia, serif;
@@ -54,26 +70,40 @@ blockquote cite:before {
     content: "\2014 \2009";
 }
 
-.stat-card {
-    width: 200px;
-    margin-right: 30px;
-    background-color: #1f2854;
-    color: white;
-}
+/* Goto */
 
-.stat-card .card-title {
-    font-size: 48px;
-}
-
-.card-container {
+.goto-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
     background-color: #c8cfe0;
 }
 
-.btn-stat {
-    background-color: #ffc107;
-    width: 60%;
-    font-size: 18px;
+.goto {
+    margin: 0 10%;
+    padding: 10% 10%;
+    background-color: #1f2854;
 }
+
+.goto a {
+    color: white;
+}
+
+/* Testimonials */
+
+#testimonials .row {
+    margin-top: 50px;
+}
+
+.testimonial-container {
+    display: flex;
+    align-items: center;
+}
+
+/* About */
 
 .btn-about {
     background-color: #c9b984;
@@ -85,13 +115,18 @@ blockquote cite:before {
     color: black;
 }
 
+/* Parent */
+
+.highlight {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* General Color Control */
+
 .bg-pitt-blue {
     background-color: #1f2854;
     color: white;
-}
-
-.dropdown-menu {
-    background-color: #1f2854;
 }
 
 .bg-pitt-blue a {
@@ -100,13 +135,15 @@ blockquote cite:before {
     padding-bottom: 12px;
 }
 
-.mt-navbar {
-    margin-top: 102px;
+.bg-grey {
+    background-color: #c8cfe0;
 }
 
-.pt-navbar {
-    padding-top: 102px;
+.bg-grey a {
+    color: black;
 }
+
+/* Typography */
 
 h1 {
     padding-top: 48px;
@@ -122,10 +159,6 @@ h4 {
 
 .nav-tabs {
     margin-top: 24px;
-}
-
-.nav-items {
-    flex-wrap: wrap;
 }
 
 .tab-content {
@@ -146,6 +179,8 @@ ul {
     margin-right: 48px;
 }
 
+/* Namecard */
+
 .namecard {
     margin-top: 36px;
 }
@@ -160,10 +195,6 @@ ul {
 
 .rounded-circle {
     width: 250px;
-}
-
-.navbar-intro {
-    padding-bottom: 24px;
 }
 
 .program-row {
@@ -181,4 +212,15 @@ ul {
 
 .program-container {
     padding-left: 24px;
+}
+
+/* Bottom */
+
+.bottom {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.bottom-left {
+    text-align: right;
 }
