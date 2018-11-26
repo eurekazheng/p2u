@@ -204,6 +204,10 @@ ul {
     font-style: italic;
 }
 
+.rounded-circle {
+    width: 250px;
+}
+
 .program-row {
     margin-top: 24px;
 }
