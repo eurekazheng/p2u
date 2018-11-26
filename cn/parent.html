@@ -10,44 +10,50 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon.png"/>
   </head>
 
   <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand fixed-top bg-pitt-blue">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav w-100 nav-justified">
-              <li class="nav-item">
-                  <a class="nav-link" href="index.html">主页<span class="sr-only">(current)</span></a>
-              </li>    
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">关于</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="about.html">学生</a>
-                  <a class="dropdown-item" href="parent.html">家长</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="program.html">项目</a>
-              </li>
-              <li class="nav-item">
-                  <a class="navbar-brand" href="index.html">
-                    <img class="navbar-logo" src="/img/logo.png" alt="P2U">
-                  </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="apply.html">申请</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ambassadors.html">互助指引</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="alumni.html">往届学生</a>
-                <span><a href="/cn/parent.html">中文</a>|<a href="/parent.html">English</a></span>
-              </li>
-          </ul>
-        </div>
+    <nav class="navbar">
+      <a class="navbar-brand" href="https://pitt.edu">
+        <img id="navbarPittLogo" src="/img/pitt_logo.png" alt="University of Pittsburgh">
+      </a>
+      <span><a href="/cn/parent.html">中文</a>|<a href="/parent.html">English</a></span>
+    </nav>
+
+    <nav class="navbar navbar-expand bg-pitt-blue" id="navigation">
+      <ul class="navbar-nav w-100 nav-justified">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">主页</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">关于</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="about.html">学生</a>
+            <a class="dropdown-item" href="parent.html">家长</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="program.html">项目</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="index.html">
+            <img id="navbarP2ULogo" src="/img/logo.png" alt="P2U">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="apply.html">申请</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ambassadors.html">学生使者</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="alumni.html">往届学生</a>
+        </li>
+      </ul>
     </nav>
 
     <div class="container mt-navbar">
@@ -57,14 +63,14 @@
         <p>匹兹堡大学学生使者代表团将于6月分赴北京、上海举办新生及家长欢迎见面会。本次活动将为匹兹堡大学本科新生及家长介绍匹兹堡城市与奥克兰周边的信息，以及在匹兹堡大学学习的相关事宜。</p>
         <p>迎新见面会时间安排：</p>
         
-        <h4>北京（2018年6月20日－6月22日</h4>
+        <h4>北京（2019年6月20日－6月22日)</h4>
         <ul>
           <li><span class="time">6月20日下午2:00-5:00</span>匹兹堡大学新生及家长欢迎见面会</li>
           <li><span class="time">6月20日下午6:00-8:00</span>校友招待会（地点：北京宝辰饭店）</li>
           <li><span class="time">6月21日-6月22日</span>与匹大在校学生互动系列活动（仅限学生参加）</li>
         </ul>
         
-        <h4>上海（2017年6月25日－6月27日</h4>
+        <h4>上海（2019年6月25日－6月27日)</h4>
         
         <ul>
           <li><span class="time">6月25日下午2:00-5:00</span>匹兹堡大学新生及家长欢迎见面会</li>
@@ -74,9 +80,7 @@
          
         <p>家长欢迎见面会具体流程信息：</p>
         
-        <p>
-          第一部分：匹兹堡城市及奥克兰地区概览
-        </p>
+        <h5>第一部分：匹兹堡城市及奥克兰地区概览</h5>
         <ul>
           <li>－奥克兰地区及匹兹堡市区</li>
           <li>－安全</li>
@@ -84,9 +88,7 @@
           <li>－机场</li>
           <li>－气候</li>
         </ul>
-        <p>
-          第二部分：学生生活
-        </p>
+        <h5>第二部分：学生生活</h5>
         <ul>
           <li>－中国学生联合会</li>
           <li>－学生社团</li>
@@ -96,9 +98,7 @@
           <li>－图书馆</li>
           <li>－职业发展</li>
         </ul>
-        <p>
-          第三部分： 学术及国际学生办公室
-        </p>
+        <h5>第三部分： 学术及国际学生办公室</h5>
         <ul>
           <li>－入学英文考试</li>
           <li>－写作指导中心</li>
@@ -110,23 +110,38 @@
           <li>－国际学生及新生迎新会</li>
           <li>－国际学生办公室介绍</li>
         </ul>
-        <p>
-          第四部分：问答环节
-        </p>
+        <h5>第四部分：问答环节</h5>
          
-        <ul>
-          <li>本项目无需报名费</li>
-          <li>报名截止日期：2018年5月15日</li>
+        <ul class="highlight">
+          <li>*本项目无需报名费*</li>
+          <li>*报名截止日期：2019年5月15日*</li>
           <li><a href="https://pitt.co1.qualtrics.com/jfe/form/SV_7ZJijurFTFlHp0F">点此报名</a></li>
-          <li>如有疑问，请发送邮件至<a href="mailto:asia@pitt.edu">asia@pitt.edu</a></li>
+          <li>*如有疑问，请发送邮件至<a href="mailto:asia@pitt.edu">asia@pitt.edu</a>*</li>
         </ul>
         
     </div>
 
-    <!-- Optional JavaScript -->
+    <div class="bottom bg-pitt-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 bottom-left">
+            <a href="apply.html">点此申请</a>
+            <div><a href="program.html">关于项目</a></div>
+          </div>
+          <div class="col-sm-6 bottom-right">
+            <a href="https://pitt.co1.qualtrics.com/jfe/form/SV_9Yb0B4GE6Q23wBT" target="_new">联系我们</a>
+            <p>邮箱: <a href="mailto:asia@pitt.edu">asia@pitt.edu</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script src="/js/custom.js"></script>
   </body>
 </html>

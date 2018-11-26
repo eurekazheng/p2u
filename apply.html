@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/ico" href="img/favicon.png"/>
   </head>
 
   <body background="color: #e0e0e0">
@@ -18,7 +20,7 @@
       <a class="navbar-brand" href="https://pitt.edu">
         <img id="navbarPittLogo" src="img/pitt_logo.png" alt="University of Pittsburgh">
       </a>
-      <span><a href="/cn/index.html">中文</a>|<a href="/index.html">English</a></span>
+      <span><a href="/cn/apply.html">中文</a>|<a href="/apply.html">English</a></span>
     </nav>
 
     <nav class="navbar navbar-expand bg-pitt-blue" id="navigation">
@@ -67,25 +69,29 @@
     </div>
 
     <div class="container d-flex justify-content-center tabs">
-        <a href="#students">International Students</a>
-        <a href="#ambassadors">Student Ambassadors</a>
+        <a class="btn btn-about" href="#students"><h5>International Students</h5></a>
+        <a class="btn btn-about" href="#ambassadors"><h5>Student Ambassadors</h5></a>
     </div>
 
     <div class="container">
-      <div id="students" class="pt-5">
+      <div id="students" class="pt-4">
         <hr>
-        <h3 class="mt-5 mb-4">International Students</h3>
+        <h3 class="mt-4 mb-4">International Students</h3>
       </div>
+      <h4>Qualifications</h4>
+      <p>
+          International student applicants must be entering their first year (freshman or transfer) in Fall 2019 on the University of Pittsburgh main campus (Oakland) to be eligible to participate. 
+      </p>
       <a href="https://pitt.co1.qualtrics.com/jfe/form/SV_7ZJijurFTFlHp0F" target="_new">
-        <button type="button" class="btn btn-about">APPLY NOW</button>
+        <button type="button" class="btn btn-about"><h5>APPLY NOW</h5></button>
       </a>
       <h4>Application Fee and Deadline</h4>
       <li>There is NO application fee</li>
       <li>Deadline: May 15, 2019</li>
 
-      <div id="ambassadors" class="pt-5">
+      <div id="ambassadors" class="pt-4">
         <hr>
-        <h3 class="mt-5 mb-4">Student Ambassadors</h3>
+        <h3 class="mt-4 mb-4">Student Ambassadors</h3>
       </div>
       <h4 style="color: #c9b984">*APPLICATIONS OPEN NOVEMBER 2018*</h4>
       <h4>Qualifications</h4>
@@ -101,7 +107,7 @@
           <li>Final Interview: November 2018</li>
           <li>Finalist Result: November 2018</li>
           <li>Accept Deadline: November 2018</li>
-          <li>Orientation Meeting: December 7, 2017</li>
+          <li>Orientation Meeting: December 7, 2018</li>
           <li>Training #1: All Day Retreat, January 2019</li>
           <li>Training #2: February 2019</li>
           <li>Training #3: March 2019</li>
@@ -113,12 +119,27 @@
       
     </div>
     
+    <div class="bottom bg-pitt-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 bottom-left">
+            <a href="apply.html">Apply Here</a>
+            <div><a href="program.html">About the Program</a></div>
+          </div>
+          <div class="col-sm-6 bottom-right">
+            <a href="https://pitt.co1.qualtrics.com/jfe/form/SV_9Yb0B4GE6Q23wBT" target="_new">Contact Us</a>
+            <p>Email: <a href="mailto:asia@pitt.edu">asia@pitt.edu</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-
-    <!-- Optional JavaScript -->
+    <!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>

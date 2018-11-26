@@ -10,248 +10,199 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/css/style.css">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+    <link rel="shortcut icon" type="image/ico" href="/img/favicon.png"/>
   </head>
 
   <body>
     
     <!-- Navbar -->
-    <nav class="navbar navbar-expand fixed-top bg-pitt-blue">
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav w-100 nav-justified">
-              <li class="nav-item">
-                  <a class="nav-link" href="index.html">主页<span class="sr-only">(current)</span></a>
-              </li>    
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">关于</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="about.html">学生</a>
-                  <a class="dropdown-item" href="parent.html">家长</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="program.html">项目</a>
-              </li>
-              <li class="nav-item">
-                  <a class="navbar-brand" href="index.html">
-                    <img class="navbar-logo" src="/img/logo.png" alt="P2U">
-                  </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="apply.html">申请</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ambassadors.html">互助指引</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="alumni.html">往届学生</a>
-                <span><a href="/cn/index.html">中文</a>|<a href="/index.html">English</a></span>
-              </li>
-          </ul>
-        </div>
+    <nav class="navbar">
+      <a class="navbar-brand" href="https://pitt.edu">
+        <img id="navbarPittLogo" src="/img/pitt_logo.png" alt="University of Pittsburgh">
+      </a>
+      <span><a href="/cn/index.html">中文</a>|<a href="/index.html">English</a></span>
+    </nav>
+
+    <nav class="navbar navbar-expand bg-pitt-blue" id="navigation">
+      <ul class="navbar-nav w-100 nav-justified">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">主页</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">关于</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="about.html">学生</a>
+            <a class="dropdown-item" href="parent.html">家长</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="program.html">项目</a>
+        </li>
+        <li class="nav-item">
+          <a class="navbar-brand" href="index.html">
+            <img id="navbarP2ULogo" src="/img/logo.png" alt="P2U">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="apply.html">申请</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ambassadors.html">学生使者</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="alumni.html">往届学生</a>
+        </li>
+      </ul>
     </nav>
 
     <!-- Carousel -->
-    <div id="carouselBackground" class="carousel slide mt-navbar" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carouselBackground" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselBackground" data-slide-to="1"></li>
-        <li data-target="#carouselBackground" data-slide-to="2"></li>
-        <li data-target="#carouselBackground" data-slide-to="3"></li>
-        <li data-target="#carouselBackground" data-slide-to="4"></li>
-        <li data-target="#carouselBackground" data-slide-to="5"></li>
-        <li data-target="#carouselBackground" data-slide-to="6"></li>
-        <li data-target="#carouselBackground" data-slide-to="7"></li>
-        <li data-target="#carouselBackground" data-slide-to="8"></li>
-        <li data-target="#carouselBackground" data-slide-to="9"></li>
-        <li data-target="#carouselBackground" data-slide-to="10"></li>
-        <li data-target="#carouselBackground" data-slide-to="11"></li>
-        <li data-target="#carouselBackground" data-slide-to="12"></li>
-        <li data-target="#carouselBackground" data-slide-to="13"></li>
-        <li data-target="#carouselBackground" data-slide-to="14"></li>
-      </ol>
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="/img/home/bg1.jpg" alt="slide 1">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg2.jpg" alt="slide 2">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg3.jpg" alt="slide 3">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg4.jpg" alt="slide 4">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg5.jpg" alt="slide 5">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg6.jpg" alt="slide 6">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg7.jpg" alt="slide 7">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg8.jpg" alt="slide 8">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg9.jpg" alt="slide 9">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg10.jpg" alt="slide 10">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg11.jpg" alt="slide 11">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg12.jpg" alt="slide 12">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg13.jpg" alt="slide 13">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg14.jpg" alt="slide 14">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="/img/home/bg15.jpg" alt="slide 15">
-        </div>        
-      </div>
-      <!-- Controls -->
-      <a class="carousel-control-prev" href="#carouselBackground" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselBackground" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-    </div>
-
-    <!-- Cards -->
-    <div class="card-container py-4 d-flex justify-content-center">
-      <div class="card stat-card text-center">
-        <div class="card-body">
-          <h3 class="card-title">3</h3>
-          <p class="card-text">城市</p>
-          <a href="map.html">
-            <button type="button" class="btn btn-stat">
-              After
-            </button>
-          </a>
+    <div class="row">
+      <div class="col-sm-3 px-0">
+        <div class="goto-container">
+          <div class="goto">
+            <a href="program.html">
+              <h5>中国，我们来啦！</h5>
+            </a>
+          </div>
+          <div class="goto">
+            <a href="ambassadors.html">
+              <h5>关于我们</h5>
+            </a>
+          </div>   
+          <div class="goto">
+            <a href="apply.html">
+              <h5>加入我们</h5>
+            </a>
+          </div>
         </div>
       </div>
-
-      <div class="card stat-card text-center">
-        <div class="card-body">
-          <h3 class="card-title">2</h3>
-          <p class="card-text">国家</p>
-          <a href="map.html">
-            <button type="button" class="btn btn-stat">
-              After
-            </button>
+      <div class="col-sm-9 px-0">
+        <div id="carouselBackground" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carouselBackground" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselBackground" data-slide-to="1"></li>
+            <li data-target="#carouselBackground" data-slide-to="2"></li>
+            <li data-target="#carouselBackground" data-slide-to="3"></li>
+            <li data-target="#carouselBackground" data-slide-to="4"></li>
+            <li data-target="#carouselBackground" data-slide-to="5"></li>
+            <li data-target="#carouselBackground" data-slide-to="6"></li>
+            <li data-target="#carouselBackground" data-slide-to="7"></li>
+            <li data-target="#carouselBackground" data-slide-to="8"></li>
+            <li data-target="#carouselBackground" data-slide-to="9"></li>
+            <li data-target="#carouselBackground" data-slide-to="10"></li>
+            <li data-target="#carouselBackground" data-slide-to="11"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="/img/home/bg1.jpg" alt="slide 1">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg2.jpg" alt="slide 2">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg3.jpg" alt="slide 3">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg4.jpg" alt="slide 4">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg5.jpg" alt="slide 5">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg6.jpg" alt="slide 6">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg7.jpg" alt="slide 7">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg8.jpg" alt="slide 8">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg9.jpg" alt="slide 9">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg10.jpg" alt="slide 10">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg11.jpg" alt="slide 11">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="/img/home/bg12.jpg" alt="slide 12">
+            </div>    
+          </div>
+          <!-- Controls -->
+          <a class="carousel-control-prev" href="#carouselBackground" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
           </a>
-        </div>
-      </div>      
-
-      <div class="card stat-card text-center">
-        <div class="card-body">
-          <h3 class="card-title">10</h3>
-          <p class="card-text">学生使者</p>
-          <a href="ambassadors.html">
-            <button type="button" class="btn btn-stat">
-              After
-            </button>
+          <a class="carousel-control-next" href="#carouselBackground" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
           </a>
         </div>
       </div>
     </div>
   
     <!-- Testimonials Carousel -->
-    <div id="carouselTestimonials" class="carousel slide mt-5" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carouselTestimonials" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselTestimonials" data-slide-to="1"></li>
-        <li data-target="#carouselTestimonials" data-slide-to="2"></li>
-      </ol>
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-8 d-flex align-items-center">
-                    <blockquote>
-                        Pitt to You是我参加过最棒的项目。这个项目让我感受到来自匹大的欢迎，并给我留下了很多难以忘记的回忆。
-                        <cite>Joyce Qu</cite>
-                    </blockquote>
-                </div>
-                <div class="col-sm-4">
-                    <img class="rounded-circle" src="/img/home/quote/joyce_qu.jpg" alt="Joyce Qu">
-                </div>
-              </div>
-            </div>
+    <ul id="testimonials" class="container">
+      <li class="row">
+        <div class="col-sm-8 testimonial-container">
+          <blockquote>
+            Pitt to You是我参加过的最棒的项目。未曾谋面，我就在大洋彼岸感受到了匹大的热情。它给我留下许多独特而又惊喜的美好记忆。
+            <cite>Joyce Qu</cite>
+          </blockquote>
         </div>
-        <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-8 d-flex align-items-center">
-                    <blockquote>
-                        Pitt to You会让你更爱匹大。
-                        <cite>Jiashun Gao</cite>
-                    </blockquote>
-                </div>
-                <div class="col-sm-4">
-                    <img class="rounded-circle" src="/img/home/quote/jiashun_gao.jpg" alt="Jiashun Gao">
-                </div>
-              </div>
-            </div>
+        <div class="col-sm-4">
+            <img class="rounded-circle" src="/img/home/quote/joyce_qu.jpg" alt="Joyce Qu">
         </div>
-        <div class="carousel-item">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-8 d-flex align-items-center">
-                    <blockquote>
-                        参加Pitt to You是我在选择来匹大之后做的最好的决定。
-                        <cite>Grace Dong</cite>
-                    </blockquote>
-                </div>
-                <div class="col-sm-4">
-                    <img class="rounded-circle" src="/img/home/quote/grace_dong.jpg" alt="Grace Dong">
-                </div>
-              </div>
-            </div>
+      </li>
+      <li class="row">
+        <div class="col-sm-4">
+            <img class="rounded-circle" src="/img/home/quote/jiashun_gao.jpg" alt="Jiashun Gao">
+        </div>
+        <div class="col-sm-8 testimonial-container">
+          <blockquote>
+            参加了Pitt to You，我发现我更喜欢匹大了。
+            <cite>Jiashun Gao</cite>
+          </blockquote>
+        </div>
+      </li>
+      <li class="row">
+        <div class="col-sm-8 testimonial-container">
+          <blockquote>
+            参加Pitt to You是我在选择来匹大之后做的最赞的事情。
+            <cite>Grace Dong</cite>
+          </blockquote>
+        </div>
+        <div class="col-sm-4">
+            <img class="rounded-circle" src="/img/home/quote/grace_dong.jpg" alt="Grace Dong">
+        </div>
+      </li>
+    </ul>
+  
+    <div class="bottom bg-pitt-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 bottom-left">
+            <a href="apply.html">点此申请</a>
+            <div><a href="program.html">关于项目</a></div>
+          </div>
+          <div class="col-sm-6 bottom-right">
+            <a href="https://pitt.co1.qualtrics.com/jfe/form/SV_9Yb0B4GE6Q23wBT" target="_new">联系我们</a>
+            <p>邮箱: <a href="mailto:asia@pitt.edu">asia@pitt.edu</a></p>
+          </div>
         </div>
       </div>
-      <!-- Controls -->
-      <a class="carousel-control-prev" href="#carouselTestimonials" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselTestimonials" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
     </div>
 
-
-
-    <!-- Optional JavaScript -->
+    <!-- JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/js/instafeed.min.js"></script>
-    <script>
-      var feed = new Instafeed({
-          get: 'tagged',
-          tagName: 'awesome',
-          clientId: 'YOUR_CLIENT_ID'
-      });
-      feed.run();
-    </script>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.sticky.js"></script>
+    <script src="/js/custom.js"></script>
   </body>
 </html>
