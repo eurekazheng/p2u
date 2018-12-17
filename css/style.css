@@ -83,9 +83,9 @@ blockquote cite:before {
 }
 
 .goto {
-    margin: 0 10%;
-    padding: 10% 10%;
-    background-color: #1f2854;
+    margin: auto 10%;
+    padding: 7% 5%;
+    background-color: #c9b984;
 }
 
 .goto a {
